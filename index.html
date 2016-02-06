@@ -15,12 +15,12 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/carousel.css" rel="stylesheet">
+    <link href="css/expandme.css" rel="stylesheet">
 
 
 
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/style2.css" rel="stylesheet">
 
 
 
@@ -82,19 +82,42 @@
         <ul>
             <li class='active'><a href='#'>Home</a></li>
 
-            <li><a href="" class="gn-icon">About</a></li>
-            <li><a href="" class="gn-icon">Activity</a></li>
-            <li><a href="" class="gn-icon">Promotion</a></li>
-            <li><a href="" class="gn-icon">Healthy Menu</a></li>
-            <li><a href="" class="gn-icon">Card</a></li>
+            <li><a href="" class="">About</a></li>
+            <li><a href="" class="">Activity</a></li>
+            <li><a href="" class="">Promotion</a></li>
+            <li><a href="" class="">Healthy Menu</a></li>
+            <li><a href="" class="">Card</a></li>
+
             <li style=" float: right"><a href="" class=""> <span class="glyphicon glyphicon-heart text-success" ></span> Feedback</a></li>
 
 
         </ul>
     </div>
 
-</div>
 
+    <div class="article">
+        <div class="screenshot">
+            <div style="width: 100%">
+            <div class="expandme " >
+
+                <img id="image" src="https://www.worldowords.com/icons/met/png/waiter.png" >
+
+
+
+
+                    <a href="#"  id="base"><span class=" expand-toggle pull-right text-center text-uppercase trapezoid">Reserve a Table</span></a>
+
+
+
+            </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</div>
 
 <!-- Carousel
    ================================================== -->
@@ -225,8 +248,8 @@
                         </li>
 
 
-                        <li class="" style="width:0.5%">
-                            <a href="https://www.mkrestaurant.com/en/promotion" class="promnavFooterotionFooter nav-link"><h4>Promotion</h4></a>
+                        <li class="" >
+                            <a href="" class="promnavFooterotionFooter nav-link"><h4>Promotion</h4></a>
                         </li>
 
                         <li class="">
@@ -244,14 +267,14 @@
 
                     <div class="row">
                     <div class="followfooterBox col-sm-offset-8 ">
-                        <span class="m-l-0">E-mail Exclusives </span>
+                        <span class="m-l-0"><b>E-mail Exclusives</b> </span>
                         <div class="formEmailfooter">
                             <div class="input-append">
                                 <form id="formNewsletter">
                                     <div class="input-group">
-                                        <input id="inputEmailNewsletter" type="email" placeholder="E-Mail Address">
+                                        <input id="inputEmailNewsletter" type="email" placeholder="E-Mail Address" style="margin: 15px 15px 15px 0">
                            <!-- <button id="btnNewsletter" class="btn " type="submit"><span>Go</span></button> -->
-                           <button class="btn" id="btnNewsletter" type="submit"><span><img src="https://www.mkrestaurant.com/img/responsive/arrow-right.png" class="btn-arrow-right" alt=""> GO</span></button>
+                           <button class="btn btn-info" id="btnNewsletter" type="submit"><span><img src="https://www.mkrestaurant.com/img/responsive/arrow-right.png" class="btn-arrow-right" alt=""> GO</span></button>
                                     </div>
                                 </form>
                             </div>
@@ -261,10 +284,10 @@
                             promotions from mk restaurants                 </p>
                         <div class="listFollowUs">
                             <ul id="ullistFollowUs" class="nav nav-pills m-l-0">
-                                <li><span>FOLLOW US</span></li>
-                                <li><a class="follow-facebook" href="https://www.facebook.com/mkrestaurants" target="_blank">Facebook</a></li>
-                                <li><a class="follow-youtube" href="http://www.youtube.com/channel/UCZA-MxkrM8PRaO6ILgXM0PQ?feature=watch" target="_blank">Youtube</a></li>
-                                <li><a class="follow-ig" href=" http://instagram.com/mkrestaurant" target="_blank">IG</a></li>
+                                <li style="margin-top: 25px"><span class="text-success"><b>FOLLOW US</b></span></li>
+                                <li><a class="follow" href="#" target="_blank"><img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/facebook_circle_color-512.png" width="50px" height="50px"> </a></li>
+                                <li><a class="follow" href="#" target="_blank"><img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/twitter_circle_color-256.png" width="50px" height="50px"> </a></li>
+                                <li><a class="follow" href="#" target="_blank"><img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/instagram_circle_color-128.png" width="50px" height="50px"></a></li>
                             </ul>
 
                         </div>
@@ -298,12 +321,10 @@
                 <div class="col-md-6 col-sm-12">
                     <ul class="nav nav-pills">
                         <li><a href="https://www.mkrestaurant.com/en/delivery" >Online Delivery <span class="border-right-footer">|</span></a></li>
-                        <li><a href="http://www.yayoirestaurants.com" target="_blank">Yayoi Restaurant <span class="border-right-footer">|</span></a></li>
-                        <li><a href="http://www.mkrestaurants.co.jp" target="_blank">MK Japan </a></li>
                     </ul>
                 </div>
                 <div class="col-md-6 col-sm-12">
-                    <p class="copyright text-right"><a href="https://www.mkrestaurant.com/en"><span >© 2013 MK Restaurant Group PCL. All rights reserved. </span></a></p>
+                    <p class="copyright text-right"><a href="#"><span >© 2016 Restaurant Group. All rights reserved. </span></a></p>
                 </div>
             </div>
         </div>
@@ -321,6 +342,10 @@
 
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="js/jQuery.scrollSpeed.js"></script>
+<script src="js/jquery.expandme.js"></script>
+<script src="js/app.js"></script>
+
 
 
 
