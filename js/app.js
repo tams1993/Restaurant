@@ -19,22 +19,19 @@ $("#css3-animated-example").collapse({
 
 $(document).ready(function(){
 
-    $('#image').hide();
-    $('.expandme').expandme({
-        onBeforeExpand: function(settings){
 
-            $('#image').fadeIn();
+    $('#reserve-button').click(function () {
 
 
-        },
+        $('#random-code').text(Math.floor(Math.random()*90000) + 10000)
 
-        onBeforeCollapse: function(){
-
-            $('#image').fadeOut();
-
-        }
     });
+
+
 });
+
+
+
 
 /*
 
